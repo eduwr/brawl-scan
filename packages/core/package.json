@@ -1,0 +1,19 @@
+{
+  "name": "@brawl-scan/core",
+  "version": "0.1.1",
+  "main": "build/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --build",
+    "start": "tsc --watch",
+    "test": "jest"
+  },
+  "dependencies": {
+    "cross-env": "5.0.5"
+  },
+  "devDependencies": {
+    "@types/jest": "26.0.19",
+    "jest": "26.6.0",
+    "ts-jest": "26.4.4"
+  }
+}
