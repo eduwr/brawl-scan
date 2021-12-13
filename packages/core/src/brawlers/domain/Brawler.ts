@@ -49,3 +49,7 @@ export interface Brawler {
   gadgets: Power[];
   videos: Video[];
 }
+
+export interface BrawlersApiResponse {
+  list: Brawler[];
+}

@@ -9,6 +9,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "axios": "^0.24.0",
     "cross-env": "5.0.5"
   },
   "devDependencies": {
